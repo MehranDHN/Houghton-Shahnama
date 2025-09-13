@@ -1,0 +1,198 @@
+@prefix : <http://yourrepo.org/pmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Ontology Definition
+:PersianManuscriptOntology a owl:Ontology ;
+    rdfs:label "Persian Manuscript Ontology for Houghton Shahnama" ;
+    rdfs:comment "An ontology for describing Persian manuscripts, particularly the Houghton Shahnama, including folios, miniature paintings, and narrative sequences, compatible with CIDOC-CRM and Linked Art." ;
+    owl:imports <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Classes
+:Manuscript a owl:Class ;
+    rdfs:label "Manuscript" ;
+    rdfs:comment "A complete Persian manuscript, such as the Houghton Shahnama." ;
+    rdfs:subClassOf crm:E22_Man-Made_Object .
+
+:Folio a owl:Class ;
+    rdfs:label "Manuscript Folio" ;
+    rdfs:comment "A single leaf or bifolio in a manuscript, with recto and verso sides. Equivalent to a Canvas in IIIF terminology." ;
+    rdfs:subClassOf crm:E84_Information_Object .
+
+:MiniaturePainting a owl:Class ;
+    rdfs:label "Miniature Painting" ;
+    rdfs:comment "A painted illustration within a manuscript, typically on a folio." ;
+    rdfs:subClassOf crm:E73_Information_Object .
+
+:TextBlock a owl:Class ;
+    rdfs:label "Text Block" ;
+    rdfs:comment "A section of calligraphic text on a folio." ;
+    rdfs:subClassOf crm:E73_Information_Object .
+
+:AgentialEntity a owl:Class ;
+    rdfs:label "Agential Entity" ;
+    rdfs:comment "A person or group involved in the creation or patronage of the manuscript." ;
+    rdfs:subClassOf crm:E39_Actor .
+
+:Patron a owl:Class ;
+    rdfs:label "Patron" ;
+    rdfs:comment "An individual or entity who commissioned the manuscript." ;
+    rdfs:subClassOf :AgentialEntity .
+
+:Artist a owl:Class ;
+    rdfs:label "Artist" ;
+    rdfs:comment "An individual responsible for painting miniatures or illuminations." ;
+    rdfs:subClassOf :AgentialEntity .
+
+:Scribe a owl:Class ;
+    rdfs:label "Scribe" ;
+    rdfs:comment "An individual responsible for writing the manuscript text." ;
+    rdfs:subClassOf :AgentialEntity .
+
+:NarrativeEpisode a owl:Class ;
+    rdfs:label "Narrative Episode" ;
+    rdfs:comment "A specific story or scene from the Shahnama narrative, e.g., 'Birth of Zal'." ;
+    rdfs:subClassOf crm:E89_Propositional_Object .
+
+:FolioType a owl:Class ;
+    rdfs:label "Folio Type" ;
+    rdfs:comment "A controlled vocabulary term describing the type or function of a Folio (e.g., cover, painting). Instances are part of a standalone minimal vocabulary." ;
+    rdfs:subClassOf skos:Concept .
+
+# Object Properties
+:hasFolio a owl:ObjectProperty ;
+    rdfs:label "has Folio" ;
+    rdfs:comment "Links a Manuscript to its constituent Folios." ;
+    rdfs:domain :Manuscript ;
+    rdfs:range :Folio ;
+    rdfs:subPropertyOf crm:P46i_is_composed_of .
+
+:hasRecto a owl:ObjectProperty ;
+    rdfs:label "has Recto" ;
+    rdfs:comment "Links a Folio to its recto side content (MiniaturePainting or TextBlock)." ;
+    rdfs:domain :Folio ;
+    rdfs:range [ a owl:Class ; owl:unionOf (:MiniaturePainting :TextBlock) ] .
+
+:hasVerso a owl:ObjectProperty ;
+    rdfs:label "has Verso" ;
+    rdfs:comment "Links a Folio to its verso side content (MiniaturePainting or TextBlock)." ;
+    rdfs:domain :Folio ;
+    rdfs:range [ a owl:Class ; owl:unionOf (:MiniaturePainting :TextBlock) ] .
+
+:precedes a owl:ObjectProperty ;
+    rdfs:label "precedes" ;
+    rdfs:comment "Indicates the Folio that comes immediately before another in sequence." ;
+    rdfs:domain :Folio ;
+    rdfs:range :Folio ;
+    owl:inverseOf :succeeds .
+
+:succeeds a owl:ObjectProperty ;
+    rdfs:label "succeeds" ;
+    rdfs:comment "Indicates the Folio that comes immediately after another in sequence." ;
+    rdfs:domain :Folio ;
+    rdfs:range :Folio .
+
+:depictsScene a owl:ObjectProperty ;
+    rdfs:label "depicts Scene" ;
+    rdfs:comment "Links a MiniaturePainting to the NarrativeEpisode it illustrates." ;
+    rdfs:domain :MiniaturePainting ;
+    rdfs:range :NarrativeEpisode ;
+    rdfs:subPropertyOf crm:P138_represents .
+
+:depictsCharacter a owl:ObjectProperty ;
+    rdfs:label "depicts Character" ;
+    rdfs:comment "Links a MiniaturePainting to a character (e.g., Zal, Rustam) via Wikidata." ;
+    rdfs:domain :MiniaturePainting ;
+    rdfs:range crm:E21_Person ;
+    rdfs:subPropertyOf crm:P138_represents .
+
+:createdBy a owl:ObjectProperty ;
+    rdfs:label "created By" ;
+    rdfs:comment "Links a Folio, MiniaturePainting, or TextBlock to its Artist or Scribe." ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (:Folio :MiniaturePainting :TextBlock) ] ;
+    rdfs:range :AgentialEntity ;
+    rdfs:subPropertyOf crm:P14_carried_out_by .
+
+:commissionedBy a owl:ObjectProperty ;
+    rdfs:label "commissioned By" ;
+    rdfs:comment "Links a Manuscript to its Patron." ;
+    rdfs:domain :Manuscript ;
+    rdfs:range :Patron ;
+    rdfs:subPropertyOf crm:P14_carried_out_by .
+
+:attributedTo a owl:ObjectProperty ;
+    rdfs:label "attributed To" ;
+    rdfs:comment "Links a MiniaturePainting to an Artist with uncertain attribution." ;
+    rdfs:domain :MiniaturePainting ;
+    rdfs:range :Artist ;
+    rdfs:subPropertyOf crm:P141_assigned .
+
+:currentLocation a owl:ObjectProperty ;
+    rdfs:label "current Location" ;
+    rdfs:comment "Links a Folio to its current geographic location (TGN)." ;
+    rdfs:domain :Folio ;
+    rdfs:range crm:E53_Place ;
+    rdfs:subPropertyOf crm:P55_has_current_location .
+
+:dispersedFrom a owl:ObjectProperty ;
+    rdfs:label "dispersed From" ;
+    rdfs:comment "Links a Folio to its original Manuscript before dispersal." ;
+    rdfs:domain :Folio ;
+    rdfs:range :Manuscript ;
+    rdfs:subPropertyOf crm:P46i_was_formerly_composed_of .
+
+:hasInscription a owl:ObjectProperty ;
+    rdfs:label "has Inscription" ;
+    rdfs:comment "Links a TextBlock to its transcribed text content." ;
+    rdfs:domain :TextBlock ;
+    rdfs:range crm:E33_Linguistic_Object .
+
+:hasFolioType a owl:ObjectProperty ;
+    rdfs:label "has Folio Type" ;
+    rdfs:comment "Associates a Folio with one or more types from the controlled vocabulary (e.g., Cover, Painting). Allows multiple types per Folio." ;
+    rdfs:domain :Folio ;
+    rdfs:range :FolioType ;
+    rdfs:subPropertyOf crm:P2_has_type .
+
+# Data Properties
+:sequencePosition a owl:DatatypeProperty ;
+    rdfs:label "sequence Position" ;
+    rdfs:comment "The numerical position of a Folio in the Manuscript sequence (1–759)." ;
+    rdfs:domain :Folio ;
+    rdfs:range xsd:integer .
+
+:illuminationStyle a owl:DatatypeProperty ;
+    rdfs:label "illumination Style" ;
+    rdfs:comment "The artistic style of a MiniaturePainting (e.g., Safavid, linked to AAT)." ;
+    rdfs:domain :MiniaturePainting ;
+    rdfs:range xsd:string .
+
+:materials a owl:DatatypeProperty ;
+    rdfs:label "materials" ;
+    rdfs:comment "Materials used in MiniaturePainting (e.g., gold leaf, AAT terms)." ;
+    rdfs:domain :MiniaturePainting ;
+    rdfs:range xsd:string .
+
+:dimensions a owl:DatatypeProperty ;
+    rdfs:label "dimensions" ;
+    rdfs:comment "Physical dimensions of a Folio or MiniaturePainting (e.g., '30.5 x 20 cm')." ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (:Folio :MiniaturePainting) ] ;
+    rdfs:range xsd:string .
+
+:calligraphicStyle a owl:DatatypeProperty ;
+    rdfs:label "calligraphic Style" ;
+    rdfs:comment "Style of calligraphy in TextBlock (e.g., nasta'liq, AAT terms)." ;
+    rdfs:domain :TextBlock ;
+    rdfs:range xsd:string .
+
+:poeticMeter a owl:DatatypeProperty ;
+    rdfs:label "poetic Meter" ;
+    rdfs:comment "Poetic meter of the Shahnama text in a TextBlock." ;
+    rdfs:domain :TextBlock ;
+    rdfs:range xsd:string .
+
