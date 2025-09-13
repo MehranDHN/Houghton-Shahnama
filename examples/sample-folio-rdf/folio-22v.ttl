@@ -1,0 +1,23 @@
+@prefix : <http://mehrandhn.org/pmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix mdhn: <http://mehrandhn.org/pmo#> .
+
+
+:folio22v a :Folio ;
+    :sequencePosition 22 ;
+    :hasRecto :painting22v ;
+    :currentLocation <http://vocab.getty.edu/tgn/7007567> ;  # New York
+    :dispersedFrom :HoughtonShahnama .
+:painting61b a :MiniaturePainting ;
+    :depictsScene :feastOfSada ;
+    :depictsCharacter <https://www.wikidata.org/wiki/Q6755> ;  # Feast of Sada
+    :createdBy :artistAbdAlVahhab .
+:feastOfSada a :NarrativeEpisode ;
+    skos:prefLabel "The Feast of Sada";
+    rdfs:label :"The Feast of Sada"@en.
