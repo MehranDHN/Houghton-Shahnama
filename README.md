@@ -50,7 +50,7 @@ houghton-shahnama-ontology/
 - **/docs**: Supplementary Markdown docs for usability (LOUD compliance).
 - **Future Expansions**: Add `/metadata` for full RDF per folio, `/iiif` for manifests/collections, and `/scripts` for automation (e.g., Python with RDFLib for generating RDF from CSV).
 
-Publish as a public GitHub repo (e.g., github.com/yourusername/houghton-shahnama-ontology). Use GitHub Pages for a simple site hosting docs and a SPARQL endpoint demo if possible.
+Publish as a public GitHub repo (e.g., github.com/MehranDHN/houghton-shahnama-ontology). Use GitHub Pages for a simple site hosting docs and a SPARQL endpoint demo if possible.
 
 ## Usage
 
@@ -62,11 +62,11 @@ Publish as a public GitHub repo (e.g., github.com/yourusername/houghton-shahnama
 
 ## SPARQL Query Examples
 
-Below are example SPARQL queries demonstrating query possibilities. Assume the ontology namespace `@prefix pmo: <http://yourrepo.org/pmo#> .` and samples loaded. These can be run in a tool like Fuseki or Yasgui.
+Below are example SPARQL queries demonstrating query possibilities. Assume the ontology namespace `@prefix pmo: <http://MehranDHN.org/pmo#> .` and samples loaded. These can be run in a tool like Fuseki or Yasgui.
 
 ### 1. Retrieve All Folios by Type (e.g., Paintings)
 ```
-PREFIX pmo: <http://yourrepo.org/pmo#>
+PREFIX pmo: <http://MehranDHN.org/pmo#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT ?folio ?typeLabel ?sequence
@@ -84,7 +84,7 @@ ORDER BY ?sequence
 
 ### 2. Find Folios Attributed to a Specific Artist
 ```
-PREFIX pmo: <http://yourrepo.org/pmo#>
+PREFIX pmo: <http://MehranDHN.org/pmo#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?folio ?painting ?artistLabel ?scene
@@ -104,7 +104,7 @@ WHERE {
 
 ### 3. Retrieve Narrative Sequences and Depicted Characters
 ```
-PREFIX pmo: <http://yourrepo.org/pmo#>
+PREFIX pmo: <http://MehranDHN.org/pmo#>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 
 SELECT ?folio ?sequence ?episodeLabel ?character
@@ -124,7 +124,7 @@ ORDER BY ?sequence
 
 ### 4. List Folios by Current Location (Reconciled to TGN)
 ```
-PREFIX pmo: <http://yourrepo.org/pmo#>
+PREFIX pmo: <http://MehranDHN.org/pmo#>
 
 SELECT ?folio ?location ?description
 WHERE {
