@@ -183,18 +183,33 @@
     "description": "It has been argued that “The Death of Zahhak” dates to around 1535 and is Sultan Muhammad’s last contribution to the Shahnameh (Book of Kings) of Shah Tahmasp (folio 37 verso). By the mid-1530s, the style of Safavid court painting had matured, and some of the hallmarks of Sultan Muhammad’s own idiom had evolved. "
   },
   {
-    "title": "Folio 124r: Rustam's seventh course: He kills the White Div",
-    "source_url": "https://www.clevelandart.org/art/1988.96",
+    "title": "Folio 25v: The Death of King Mirdas",
+    "source_url": "https://www.khalilicollections.org/collections/islamic-art/khalili-collection-islamic-art-the-death-of-king-mirdas-mss1030-folio25/",
     "metadata": {
-      "accession": "1988.96",
-      "folio_sequence": 124,
-      "folio_side": "r",
+      "accession": "MSS 1030, folio 25v",
+      "folio_sequence": 25,
+      "folio_side": "v",
       "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1530",
       "medium": "Ink, opaque watercolor, and gold on paper",
-      "dimensions": "28.4 x 18.5 cm",
-      "location": "Cleveland Museum"
+      "dimensions": "23.3 x 17.5 cm",
+      "location": "Khalili Collection"
     },
-    "description": "The legendary hero Rustam brutally takes the demon chief’s liver blood, needed to cure his king of blindness. Paintings from the Shah-nama made for the Persian ruler Shah Tahmasp (reigned 1524–76) were acclaimed in their day for their brilliant coloring and refinement. Attributed to Mir Musavvir."
+    "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
+  },
+  {
+    "title": "Folio 25r: The Death of King Mirdas",
+    "source_url": "https://www.khalilicollections.org/collections/islamic-art/khalili-collection-islamic-art-the-death-of-king-mirdas-mss1030-folio25/",
+    "metadata": {
+      "accession": "MSS 1030, folio 25r",
+      "folio_sequence": 25,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Illuminated_Heading_Text"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "27 x 17.1 cm",
+      "location": "Khalili Collection"
+    },
+    "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
   }
 ]
