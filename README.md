@@ -1,4 +1,4 @@
-# Houghton Shahnama Ontology and Controlled Vocabulary
+# Shah Tahmasp Shahnama (Houghton) Ontology and Controlled Vocabulary
 
 ## Overview
 
