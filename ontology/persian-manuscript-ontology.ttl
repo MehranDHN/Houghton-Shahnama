@@ -30,7 +30,7 @@
     rdfs:comment "A painted illustration within a manuscript, typically on a folio." ;
     rdfs:subClassOf crm:E38_Images.
 
-:Illuminzation a owl:Class ;
+:Illumination a owl:Class ;
     rdfs:label "Illumination" ;
     rdfs:comment "A Illuminated element within a manuscript, typically on a folio." ;
     rdfs:subClassOf crm:E26_Physical_Feature.
