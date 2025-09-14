@@ -4,6 +4,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452111",
     "metadata": {
       "accession": "1970.301.2",
+      "folio_sequence": 22,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"], 
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, silver, and gold on paper",
       "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -12,10 +15,13 @@
     "description": "Depicts the ancient festival of Sada with fire and celebration; attributed to Sultan Muhammad."
   },
   {
-    "title": "Folio Unknown1: Combat of Giv and Kamus",
+    "title": "Folio 265v: Combat of Giv and Kamus",
     "source_url": "https://cudl.lib.cam.ac.uk/view/MS-ADD-02702/1",
     "metadata": {
       "accession": "78.121",
+      "folio_sequence": 265,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525-1535",
       "medium": "Ink, opaque watercolor, and gold on paper",
       "dimensions": "Approx. 47.31 × 32.07 cm",
@@ -28,6 +34,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452112",
     "metadata": {
       "accession": " 1970.301.3",
+      "folio_sequence": 23,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, silver, and gold on paper",
       "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -40,6 +49,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452145",
     "metadata": {
       "accession": "1970.301.29",
+      "folio_sequence": 241,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 x 9 in. (27.9 x 22.9 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -52,6 +64,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452146",
     "metadata": {
       "accession": "1970.301.30",
+      "folio_sequence": 243,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 1/4 x 9 1/8 in. (28.6 x 23.2 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -64,6 +79,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452148",
     "metadata": {
       "accession": "1970.301.32",
+      "folio_sequence": 248,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 1/8 x 9 1/8 in. (28.3 x 23.2 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -72,10 +90,13 @@
     "description": "Combat scene; vengeance narrative."
   },
   {
-    "title": "Folio Unknown2: The Nightmare of Zahhak",
+    "title": "Folio 28v: The Nightmare of Zahhak",
     "source_url": "https://collections.qm.org.qa/en/objects/the-nightmare-of-zahhak-ms412007",
     "metadata": {
       "accession": "ms412007",
+      "folio_sequence": 28,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "highres_image": "https://minicomp.github.io/wax/img/derivatives/iiif/images/obj7/full/full/0/default.jpg",
       "date": "ca. 1525-1535",
       "medium": "Opaque watercolor, ink, and gold on paper",
@@ -89,6 +110,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452118",
     "metadata": {
       "accession": "1970.301.9",
+      "folio_sequence": 80,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, silver, and gold on paper",
       "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -101,6 +125,9 @@
     "source_url": "https://www.metmuseum.org/art/collection/search/452182",
     "metadata": {
       "accession": " 1970.301.73",
+      "folio_sequence": 708,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1530",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 x 9 in. (27.9 x 22.9 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -109,10 +136,13 @@
     "description": "Rescue scene with angel intervention."
   },
   {
-    "title": "Folio Unknown3: Tur Beheads Iraj",
+    "title": "Folio 48v: Tur Beheads Iraj",
     "source_url": "https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=24210695&title=Tur-Beheads-Iraj;-Page-from-a-Dispersed-copy-of-the-Shahnama-Book-of-Kings-by-Firdawsi",
     "metadata": {
       "accession": "1984.87",
+      "folio_sequence": 48,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "highres_image": "https://artsandculture.google.com/asset/tur-beheads-iraj-sultan-muhammad-iranian-attributed/IQGB-i0WnXtGxw",
       "date": "ca. 1530",
       "medium": "Ink, opaque watercolor, and gold on paper",
@@ -122,10 +152,13 @@
     "description": "Earthly drunkenness scene; stylistic link to Houghton Shahnama."
   },
   {
-    "title": "Folio Unknown4: Kay Khusraw Welcomed by his Grandfather, Kay Kaus, King of Iran",
+    "title": "Folio 218r: Kay Khusraw Welcomed by his Grandfather, Kay Kaus, King of Iran",
     "source_url": "https://www.davidmus.dk/art-from-the-islamic-world/miniature-paintings/item/963?culture=en-us",
     "metadata": {
       "accession": "30/1988",
+      "folio_sequence": 218,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
       "highres_image": "https://catalog.cdn-davidmus.dk/storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdThFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--161d369b711d51196b776544384e49cc8dc6634b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNta0NBQW89IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2fb0a7ed0031bd5615b9bf0a5ecfe18c7e2c74ed/Copyright_the_David-Collection_Copenhagen_30-1988_photo_Pernille_Klemp_web.jpg",
       "date": "ca. 1530",
       "medium": "Ink, opaque watercolor, and gold on paper",
@@ -135,15 +168,33 @@
     "description": "The scene is enacted at the court of Kay Kaus. He is seated on his throne together with his grandson, Kay Khusraw, who has just returned from Turan, where he grew up in secrecy after his father, good Prince Siyawush, was killed."
   },
   {
-    "title": "Folio Unknown4: Haftvad and the Worm",
+    "title": "Folio 521v: Haftvad and the Worm",
     "source_url": "https://collections.agakhanmuseum.org/collection/artifact/story-haftvad-and-the-worm-akm164",
     "metadata": {
       "accession": "AKM155",
+      "folio_sequence": 521,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1530",
       "medium": "Ink, opaque watercolor, and gold on paper",
       "dimensions": "46.8 x 32.3 cm",
       "location": "Agakhan Museum"
     },
     "description": "It has been argued that “The Death of Zahhak” dates to around 1535 and is Sultan Muhammad’s last contribution to the Shahnameh (Book of Kings) of Shah Tahmasp (folio 37 verso). By the mid-1530s, the style of Safavid court painting had matured, and some of the hallmarks of Sultan Muhammad’s own idiom had evolved. "
+  },
+  {
+    "title": "Folio 124r: Rustam's seventh course: He kills the White Div",
+    "source_url": "https://www.clevelandart.org/art/1988.96",
+    "metadata": {
+      "accession": "1988.96",
+      "folio_sequence": 124,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "28.4 x 18.5 cm",
+      "location": "Cleveland Museum"
+    },
+    "description": "The legendary hero Rustam brutally takes the demon chief’s liver blood, needed to cure his king of blindness. Paintings from the Shah-nama made for the Persian ruler Shah Tahmasp (reigned 1524–76) were acclaimed in their day for their brilliant coloring and refinement. Attributed to Mir Musavvir."
   }
 ]
