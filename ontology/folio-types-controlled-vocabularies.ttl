@@ -60,3 +60,12 @@
     skos:prefLabel "Text Folio"@en ;
     skos:definition "A standard folio primarily containing calligraphic text without major illustrations."@en ;
     skos:inScheme :FolioTypeScheme .
+
+:Illuminated_Text a :FolioType ;
+    skos:prefLabel "Illuminated Text"@en ;
+    skos:definition "Illuminated Heading Text folio primarily containing calligraphic text with major illumination"@en ;
+    skos:inScheme :FolioTypeScheme .  
+
+:Illuminated_Heading_Text a :FolioType ;
+    skos:prefLabel "Illuminated Heading Text folio primarily containing calligraphic text with major illumination and heading."@en ;
+    skos:inScheme :FolioTypeScheme .        
