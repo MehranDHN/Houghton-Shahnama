@@ -1,4 +1,4 @@
-@prefix : <http://yourrepo.org/pmo#> .
+@prefix : <http://mehrandhn.org/pmo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix mdhn: <http://mehrandhn.org/pmo#> .
 
 # Ontology Definition
 :PersianManuscriptOntology a owl:Ontology ;
@@ -17,22 +18,28 @@
 :Manuscript a owl:Class ;
     rdfs:label "Manuscript" ;
     rdfs:comment "A complete Persian manuscript, such as the Houghton Shahnama." ;
-    rdfs:subClassOf crm:E22_Man-Made_Object .
+    rdfs:subClassOf crm:E84_Information_Carrier .
 
 :Folio a owl:Class ;
     rdfs:label "Manuscript Folio" ;
     rdfs:comment "A single leaf or bifolio in a manuscript, with recto and verso sides. Equivalent to a Canvas in IIIF terminology." ;
-    rdfs:subClassOf crm:E84_Information_Object .
+    rdfs:subClassOf crm:E24_Physical_Man_Made_Thing .
 
 :MiniaturePainting a owl:Class ;
     rdfs:label "Miniature Painting" ;
     rdfs:comment "A painted illustration within a manuscript, typically on a folio." ;
-    rdfs:subClassOf crm:E73_Information_Object .
+    rdfs:subClassOf crm:E38_Images.
+
+:Illuminzation a owl:Class ;
+    rdfs:label "Illumination" ;
+    rdfs:comment "A Illuminated element within a manuscript, typically on a folio." ;
+    rdfs:subClassOf crm:E26_Physical_Feature.
+    
 
 :TextBlock a owl:Class ;
     rdfs:label "Text Block" ;
     rdfs:comment "A section of calligraphic text on a folio." ;
-    rdfs:subClassOf crm:E73_Information_Object .
+    rdfs:subClassOf crm:E33_Linguistic_Object .
 
 :AgentialEntity a owl:Class ;
     rdfs:label "Agential Entity" ;
