@@ -8,7 +8,7 @@ The controlled vocabulary provides a minimal set of terms for classifying folio 
 
 This initial release includes:
 - The ontology in Turtle (TTL) format.
-- A standalone controlled vocabulary as part of the ontology.
+- A standalone controlled vocabulary (`folio-types-controlled-vocabularies.ttl`) as part of the ontology.
 - Sample RDF data for a few folios.
 - SPARQL query examples for demonstration.
 - A JSON catalog (`catalog.json`) of resources (folios and paintings) to be considered for integration and upload to Internet Archive (IA). This catalog is partial and focuses on publicly accessible digitized folios; expand it as needed.
@@ -104,18 +104,18 @@ WHERE {
 
 ### 3. Retrieve Narrative Sequences and Depicted Characters
 ```
-PREFIX pmo: <http://MehranDHN.org/pmo#>
-PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-
-SELECT ?folio ?sequence ?episodeLabel ?character
+SELECT ?folio ?typeLabel ?sequence ?episodeLabel ?character
 WHERE {
   ?folio a pmo:Folio ;
+         pmo:hasFolioType ?type ;
          pmo:sequencePosition ?sequence ;
          pmo:hasRecto|pmo:hasVerso ?painting .
+  ?type skos:prefLabel ?typeLabel .
   ?painting pmo:depictsScene ?episode ;
             pmo:depictsCharacter ?char .
   ?episode rdfs:label ?episodeLabel .
-  ?char crm:P2_has_type ?character .  # Reconciled to Wikidata/AAT
+  ?char crm:P2_has_type ?character .
+  FILTER (?type = pmo:Painting)
 }
 ORDER BY ?sequence
 ```
@@ -368,6 +368,83 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
   }
 ]
+```
+## Scoped Controlled Vocabularies
+Despite the lack of standard global controlled vocabulary related to numerous folio types in Persian manuscripts this controlled vocabulary provides a minimal set of terms for classifying folio types (e.g., Painting, Colophon), which can be associated with folios via the :hasFolioType property. A standalone minimal version of this vocabulary is included to ensure precise classification of folio functions in Persian manuscripts.
+However there is a complete version in `KG4OPennResources` project that can be refrenced later.
+
+```turtle
+@prefix : <http://mehrandhn.org/pmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix mdhn: <http://mehrandhn.org/pmo#> .
+
+
+# Controlled Vocabulary for Folio Types (Standalone Minimal Scheme)
+:FolioTypeScheme a skos:ConceptScheme ;
+    rdfs:label "Folio Type Vocabulary" ;
+    rdfs:comment "A minimal controlled vocabulary for classifying types of folios in Persian manuscripts, such as covers, paintings, etc. Each Folio can have one or more types." ;
+    dct:creator "Houghton Shahnama Project" .
+
+:Cover a :FolioType ;
+    skos:prefLabel "Cover"@en ;
+    skos:definition "The protective outer layer or binding of the manuscript."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:IlluminatedOpeningPage a :FolioType ;
+    skos:prefLabel "Illuminated Opening Page"@en ;
+    skos:definition "A frontispiece or opening folio with elaborate illumination, such as a shamsa (rosette) or sarlauh (headpiece) in Persian manuscripts."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:OwnersAnnotation a :FolioType ;
+    skos:prefLabel "Owners Annotation"@en ;
+    skos:definition "A folio containing notes, seals, or inscriptions from previous owners (e.g., ex libris or provenance marks)."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:Painting a :FolioType ;
+    skos:prefLabel "Painting"@en ;
+    skos:definition "A folio featuring a primary miniature painting or illustration."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:Illumination a :FolioType ;
+    skos:prefLabel "Illumination"@en ;
+    skos:definition "A folio with decorative elements like goldwork, borders, or marginal illuminations, often without a central painting."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:Colophon a :FolioType ;
+    skos:prefLabel "Colophon"@en ;
+    skos:definition "A folio with the scribe's note at the end, including details like date, place, and creator."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:Flyleaf a :FolioType ;
+    skos:prefLabel "Flyleaf"@en ;
+    skos:definition "Blank or minimally decorated pages at the beginning or end of the manuscript (also known as fly pages or endpapers)."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+# Additional minimal types for completeness in Persian manuscripts
+:Finispiece a :FolioType ;
+    skos:prefLabel "Finispiece"@en ;
+    skos:definition "An illuminated closing page or tailpiece at the end of the manuscript."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:TextFolio a :FolioType ;
+    skos:prefLabel "Text Folio"@en ;
+    skos:definition "A standard folio primarily containing calligraphic text without major illustrations."@en ;
+    skos:inScheme :FolioTypeScheme .
+
+:Illuminated_Text a :FolioType ;
+    skos:prefLabel "Illuminated Text"@en ;
+    skos:definition "Illuminated Heading Text folio primarily containing calligraphic text with major illumination"@en ;
+    skos:inScheme :FolioTypeScheme .  
+
+:Illuminated_Heading_Text a :FolioType ;
+    skos:prefLabel "Illuminated Heading Text folio primarily containing calligraphic text with major illumination and heading."@en ;
+    skos:inScheme :FolioTypeScheme .   
 ```
 
 ## License
