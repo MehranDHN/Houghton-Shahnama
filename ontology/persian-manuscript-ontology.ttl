@@ -43,6 +43,10 @@
     rdfs:comment "A section of calligraphic text on a folio." ;
     rdfs:subClassOf crm:E33_Linguistic_Object .
 
+:ContentType a owl:Class ;
+    rdfs:label "Content Type" ;
+    rdfs:comment "Content type of a folio, such as 'Miniature Painting' or 'Text Block'." ;   
+
 :AgentialEntity a owl:Class ;
     rdfs:label "Agential Entity" ;
     rdfs:comment "A person or group involved in the creation or patronage of the manuscript." ;
@@ -65,7 +69,11 @@
 
 mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
-    rdfs:label "Script Style Type" .      
+    rdfs:label "Script Style Type" .  
+
+mdhn:GLAMSource a owl:Class ;
+    rdfs:comment "The original GLAM source of the folio, such as 'Metropolitan Museum of Art' or 'Harvard University'." ;
+    rdfs:label "GLAM Source" .         
 
 :NarrativeEpisode a owl:Class ;
     rdfs:label "Narrative Episode" ;
@@ -177,6 +185,12 @@ mdhn:ScriptStyleType a owl:Class ;
     rdfs:domain :Folio ;
     rdfs:range :FolioType ;
     rdfs:subPropertyOf crm:P2_has_type .
+
+:keptInGLAM a owl:ObjectProperty ;
+    rdfs:label "kept in GLAM" ;
+    rdfs:comment "Associates a Folio with its current GLAM institution source (e.g., Metropolitan Museum of Art, Harvard University)." ;
+    rdfs:domain :Folio ;
+    rdfs:range :GLAMSource .
 
 # Data Properties
 :sequencePosition a owl:DatatypeProperty ;
