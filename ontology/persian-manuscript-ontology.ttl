@@ -64,6 +64,10 @@
     rdfs:comment "An individual responsible for writing the manuscript text." ;
     rdfs:subClassOf :AgentialEntity .
 
+mdhn:ScriptStyleType a owl:Class ;
+    rdfs:comment "The script style type of a calligraphy resource, such as 'Nasta'liq' or 'Thuluth'." ;
+    rdfs:label "Script Style Type" .      
+
 :NarrativeEpisode a owl:Class ;
     rdfs:label "Narrative Episode" ;
     rdfs:comment "A specific story or scene from the Shahnama narrative, e.g., 'Birth of Zal'." ;
@@ -155,6 +159,12 @@
     rdfs:domain :Folio ;
     rdfs:range :Manuscript ;
     rdfs:subPropertyOf crm:P46i_was_formerly_composed_of .
+
+:hasScriptStyle a owl:ObjectProperty ;
+    rdfs:label "Has Script Style" ;
+    rdfs:comment "Links a Folio that has TextBlock to script style type" ;
+    rdfs:domain :Folio ;
+    rdfs:range :ScriptStyleType .  
 
 
 :hasContentType a owl:ObjectProperty ;
