@@ -45,11 +45,11 @@
 
 :ContentType a owl:Class ;
     rdfs:label "Content Type" ;
-    rdfs:comment "Content type of a folio, such as 'Miniature Painting' or 'Text Block'." ;   
+    rdfs:comment "Content type of a folio, such as 'Miniature Painting' or 'Text Block'." .  
 
 :AgentialEntity a owl:Class ;
     rdfs:label "Agential Entity" ;
-    rdfs:comment "A person or group involved in the creation or patronage of the manuscript." ;
+    rdfs:comment "A person or group involved in the creation or patronage of the manuscript." .
     rdfs:subClassOf crm:E39_Actor .
 
 :Patron a owl:Class ;
