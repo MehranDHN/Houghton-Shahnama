@@ -45,7 +45,7 @@
 
 :ContentType a owl:Class ;
     rdfs:label "Content Type" ;
-    rdfs:comment "Content type of a folio, such as 'Miniature Painting' or 'Text Block'." .  
+    rdfs:comment "Content type of a folio, such as Miniature Painting or Text Block." .  
 
 :AgentialEntity a owl:Class ;
     rdfs:label "Agential Entity" ;
