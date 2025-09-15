@@ -6,12 +6,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix mdhn: <http://mehrandhn.org/pmo#> .
 
 # Ontology Definition
 :PersianManuscriptOntology a owl:Ontology ;
     rdfs:label "Persian Manuscript Ontology for Houghton Shahnama" ;
     rdfs:comment "An ontology for describing Persian manuscripts, particularly the Houghton Shahnama, including folios, miniature paintings, and narrative sequences, compatible with CIDOC-CRM and Linked Art." ;
+    rdfs:seeAlso <https://linked.art/> ;
+    rdfs:seeAlso <https://vocab.getty.edu/aat/> .    
     owl:imports <http://www.cidoc-crm.org/cidoc-crm/> .
 
 # Classes
@@ -153,11 +156,12 @@
     rdfs:range :Manuscript ;
     rdfs:subPropertyOf crm:P46i_was_formerly_composed_of .
 
-:hasInscription a owl:ObjectProperty ;
-    rdfs:label "has Inscription" ;
-    rdfs:comment "Links a TextBlock to its transcribed text content." ;
-    rdfs:domain :TextBlock ;
-    rdfs:range crm:E33_Linguistic_Object .
+
+:hasContentType a owl:ObjectProperty ;
+    rdfs:label "has Content Type" ;
+    rdfs:comment "Links a Folio to its contents." ;
+    rdfs:domain :Folio ;
+    rdfs:range [ a owl:Class ; owl:unionOf (:TextBlock :MiniaturePainting :Illumination) ] .   
 
 :hasFolioType a owl:ObjectProperty ;
     rdfs:label "has Folio Type" ;
