@@ -171,7 +171,7 @@
     "title": "Folio 521v: Haftvad and the Worm",
     "source_url": "https://collections.agakhanmuseum.org/collection/artifact/story-haftvad-and-the-worm-akm164",
     "metadata": {
-      "accession": "AKM155",
+      "accession": "AKM164",
       "folio_sequence": 521,
       "folio_side": "v",
       "folio_type" : ["mdhn:Painting"],
@@ -258,5 +258,35 @@
       "location": "Smithsonian Institution"
     },
     "description": "The hero Feridun enters the story towards the beginning, when the evil king Zahak dreams that Feridun would strike him down with an ox-headed mace and put an end to his reign of darkness. Feridun, whose father had been killed by Zahak, wages various campaigns against the tyrant and even manages to enthrone himself in Zahak's castle"
+  },
+  {
+    "title": "Folio 37v: The Death of Zahhak",
+    "source_url": "https://collections.agakhanmuseum.org/collection/artifact/the-death-of-zahhak-akm155",
+    "metadata": {
+      "accession": "AKM155",
+      "folio_sequence": 37,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "46.8 x 32.3 cm",
+      "location": "Agakhan Museum"
+    },
+    "description": "AKM155 (folio 37 verso) depicts the terrible fate of Zahhak, who, as a young man, came under the spell of the evil Ahriman. Ahriman appeared to Zahhak in the form of a congenial fellow and convinced Zahhak to murder his father, an Arabian king. Once Zahhak had taken control of his father’s lands, Ahriman reappeared in a different guise, this time as a cook."
+  },
+  {
+    "title": "Folio 20v: The Court of Kayumars",
+    "source_url": "https://collections.agakhanmuseum.org/collection/artifact/court-of-kayumars-akm165",
+    "metadata": {
+      "accession": "AKM155",
+      "folio_sequence": 20,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "45 x 30 cm",
+      "location": "Agakhan Museum"
+    },
+    "description": "According to Firdausi, the very idea of kingship originated with King Kayumars, who ruled for thirty years, overseeing a peaceable kingdom in which men wore leopard-skin robes and wild animals grew tame. In this utopia Kayumars had one secret enemy, the evil Ahriman, whose envy drove him to incite his own son, the Black Div, to murder Siyamak, the son of Kayumars. Before the assassination took place, the angel Surush warned Kayumars of Ahriman’s plot."
   }
 ]
