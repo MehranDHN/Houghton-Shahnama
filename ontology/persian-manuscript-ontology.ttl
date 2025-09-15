@@ -49,7 +49,7 @@
 
 :AgentialEntity a owl:Class ;
     rdfs:label "Agential Entity" ;
-    rdfs:comment "A person or group involved in the creation or patronage of the manuscript." .
+    rdfs:comment "A person or group involved in the creation or patronage of the manuscript." ;
     rdfs:subClassOf crm:E39_Actor .
 
 :Patron a owl:Class ;
