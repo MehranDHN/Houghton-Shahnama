@@ -211,5 +211,52 @@
       "location": "Khalili Collection"
     },
     "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
+  },
+  {
+    "title": "Folio 21v: Hushang Slays the Black Div",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hushang_Slays_the_Black_Div,_from_the_Shah_Tahmasp%27s_Shahnama.jpg",
+    "metadata": {
+      "accession": "Welch folio 21v",
+      "folio_sequence": 21,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "321 x 215 mm",
+      "location": "Welch Collection"
+    },
+    "description": "Hushang Slays the Black Div, from the Shah Tahmasp's Shahnama, f. 21v. Attributed to Soltan Mohammad. 321 x 215 mm. Tabriz, c. 1522-1530. The Welch Collection"
+  },
+  {
+    "title": "Folio 36v: Faridun strikes Zahhak with the ox-headed mace",
+    "source_url": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1996.2/",
+    "metadata": {
+      "accession": "F1996.2",
+      "folio_sequence": 36,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "highres_image":"https://ids.si.edu/ids/iiif/FS-7883_04/full/full/0/default.jpg",
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "27.2 × 17.4 cm",
+      "location": "Smithsonian Institution"
+    },
+    "description": "The hero Feridun enters the story towards the beginning, when the evil king Zahak dreams that Feridun would strike him down with an ox-headed mace and put an end to his reign of darkness. Feridun, whose father had been killed by Zahak, wages various campaigns against the tyrant and even manages to enthrone himself in Zahak's castle"
+  },
+  {
+    "title": "Folio 36r: Faridun captures Zahhak",
+    "source_url": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1996.2/",
+    "metadata": {
+      "accession": "F1996.2",
+      "folio_sequence": 36,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Illuminated_Text"],
+      "highres_image":"https://ids.si.edu/ids/iiif/FS-6838_09/full/full/0/default.jpg",
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "27.2 × 17.4 cm",
+      "location": "Smithsonian Institution"
+    },
+    "description": "The hero Feridun enters the story towards the beginning, when the evil king Zahak dreams that Feridun would strike him down with an ox-headed mace and put an end to his reign of darkness. Feridun, whose father had been killed by Zahak, wages various campaigns against the tyrant and even manages to enthrone himself in Zahak's castle"
   }
 ]
