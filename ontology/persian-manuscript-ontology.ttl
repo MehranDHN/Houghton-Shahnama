@@ -14,7 +14,7 @@
     rdfs:label "Persian Manuscript Ontology for Houghton Shahnama" ;
     rdfs:comment "An ontology for describing Persian manuscripts, particularly the Houghton Shahnama, including folios, miniature paintings, and narrative sequences, compatible with CIDOC-CRM and Linked Art." ;
     rdfs:seeAlso <https://linked.art/> ;
-    rdfs:seeAlso <https://vocab.getty.edu/aat/> .    
+    rdfs:seeAlso <https://vocab.getty.edu/aat/> ;    
     owl:imports <http://www.cidoc-crm.org/cidoc-crm/> .
 
 # Classes
@@ -165,7 +165,6 @@ mdhn:ScriptStyleType a owl:Class ;
     rdfs:comment "Links a Folio that has TextBlock to script style type" ;
     rdfs:domain :Folio ;
     rdfs:range :ScriptStyleType .  
-
 
 :hasContentType a owl:ObjectProperty ;
     rdfs:label "has Content Type" ;
