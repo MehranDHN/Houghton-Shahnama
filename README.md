@@ -159,6 +159,9 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "source_url": "https://www.metmuseum.org/art/collection/search/452111",
     "metadata": {
       "accession": "1970.301.2",
+      "folio_sequence": 22,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"], 
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, silver, and gold on paper",
       "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -167,22 +170,43 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "description": "Depicts the ancient festival of Sada with fire and celebration; attributed to Sultan Muhammad."
   },
   {
-    "title": "Folio 61b: Birth of Zal",
+    "title": "Folio 265v: Combat of Giv and Kamus",
     "source_url": "https://cudl.lib.cam.ac.uk/view/MS-ADD-02702/1",
     "metadata": {
-      "accession": "MS Add.2702",
+      "accession": "78.121",
+      "folio_sequence": 265,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525-1535",
       "medium": "Ink, opaque watercolor, and gold on paper",
-      "dimensions": "Approx. 47 x 32 cm",
-      "location": "Cambridge University Library"
+      "dimensions": "Approx. 47.31 × 32.07 cm",
+      "location": "Virginia Museum of Fine Arts"
     },
-    "description": "Scene of Zal's birth, with simurgh; part of Aga Khan Collection."
+    "description": "This painting depicts the combat between the Iranian hero Giv and Kamus of Kashan. It shows the moment when, surrounded by their opposing armies, Giv’s lance was “cleaved obliquely like a pen."
   },
+  {
+    "title": "Folio 23v: Tahmuras Defeats the Divs",
+    "source_url": "https://www.metmuseum.org/art/collection/search/452112",
+    "metadata": {
+      "accession": " 1970.301.3",
+      "folio_sequence": 23,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1525",
+      "medium": "Opaque watercolor, ink, silver, and gold on paper",
+      "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
+      "location": "Metropolitan Museum of Art, New York"
+    },
+    "description": "Tahmuras, shown here galloping across a meadow, defeated the divs (demons); in exchange for their lives, they taught him the art of writing. This work is attributed to Sultan Muhammad, the master painter and chief administrator of the first generation of artists of this manuscript"
+  },  
   {
     "title": "Folio 241r: The Besotted Iranian Camp Attacked by Night",
     "source_url": "https://www.metmuseum.org/art/collection/search/452145",
     "metadata": {
       "accession": "1970.301.29",
+      "folio_sequence": 241,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 x 9 in. (27.9 x 22.9 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -195,6 +219,9 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "source_url": "https://www.metmuseum.org/art/collection/search/452146",
     "metadata": {
       "accession": "1970.301.30",
+      "folio_sequence": 243,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 1/4 x 9 1/8 in. (28.6 x 23.2 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -207,6 +234,9 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "source_url": "https://www.metmuseum.org/art/collection/search/452148",
     "metadata": {
       "accession": "1970.301.32",
+      "folio_sequence": 248,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 1/8 x 9 1/8 in. (28.3 x 23.2 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -215,46 +245,44 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "description": "Combat scene; vengeance narrative."
   },
   {
-    "title": "Bifolio: S1986.102a-d",
-    "source_url": "https://asia.si.edu/object/S1986.102a-d/",
+    "title": "Folio 28v: The Nightmare of Zahhak",
+    "source_url": "https://collections.qm.org.qa/en/objects/the-nightmare-of-zahhak-ms412007",
     "metadata": {
-      "accession": "S1986.102a-d",
+      "accession": "ms412007",
+      "folio_sequence": 28,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "highres_image": "https://minicomp.github.io/wax/img/derivatives/iiif/images/obj7/full/full/0/default.jpg",
       "date": "ca. 1525-1535",
       "medium": "Opaque watercolor, ink, and gold on paper",
-      "dimensions": "Approx. 47 x 32 cm",
-      "location": "Freer Gallery of Art, Smithsonian"
+      "dimensions": "47.2 × 32.1 cm cm",
+      "location": "Qatar Museum"
     },
-    "description": "Text and illumination; brotherhood scene between Turanians and Iranians."
+    "description": "The Nightmare of Zahhak"
   },
   {
-    "title": "Double-Page Frontispiece: 1945.169",
-    "source_url": "https://www.clevelandart.org/art/1945.169",
+    "title": "Folio 80v: Manuchihr Welcomes Sam but Orders War upon Mihrab",
+    "source_url": "https://www.metmuseum.org/art/collection/search/452118",
     "metadata": {
-      "accession": "1945.169",
-      "date": "ca. 1525-1530",
-      "medium": "Opaque watercolor, ink, and gold on paper",
-      "dimensions": "47.5 x 32.5 cm",
-      "location": "Cleveland Museum of Art"
-    },
-    "description": "Illuminated frontispiece with courtly scenes."
-  },
-  {
-    "title": "Folio 37v: Scene from Shahnama",
-    "source_url": "https://quod.lib.umich.edu/i/icmc1ic/x-icmc001/ICMC001",
-    "metadata": {
-      "accession": "ICMC001",
+      "accession": "1970.301.9",
+      "folio_sequence": 80,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1525",
-      "medium": "Ink, watercolor, gold on paper",
-      "dimensions": "Unknown",
-      "location": "University of Michigan Museum of Art"
+      "medium": "Opaque watercolor, ink, silver, and gold on paper",
+      "dimensions": "Painting: 9 1/2 x 9 1/16 in. (24.1 x 23 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
+      "location": "Metropolitan Museum of Art, New York"
     },
-    "description": "Narrative illustration; dispersed from Houghton."
+    "description": "Sam arrived at the imperial court and was received by Shah Manuchihr, who listened with admiration as he reported on the victories and adventures of the campaign"
   },
   {
     "title": "Folio 708v: The Angel Surush Rescues Khusrau Parviz",
-    "source_url": "https://www.metmuseum.org/art/collection/search/452210",
+    "source_url": "https://www.metmuseum.org/art/collection/search/452182",
     "metadata": {
-      "accession": "1970.301.76",
+      "accession": " 1970.301.73",
+      "folio_sequence": 708,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
       "date": "ca. 1530",
       "medium": "Opaque watercolor, ink, and gold on paper",
       "dimensions": "Painting: 11 x 9 in. (27.9 x 22.9 cm); Page: 18 1/2 x 12 1/2 in. (47 x 31.8 cm)",
@@ -263,16 +291,81 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
     "description": "Rescue scene with angel intervention."
   },
   {
-    "title": "Folio from Divan of Hafiz (related to Shahnama style): 1988.460.2",
-    "source_url": "https://harvardartmuseums.org/collections/object/165247",
+    "title": "Folio 48v: Tur Beheads Iraj",
+    "source_url": "https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=24210695&title=Tur-Beheads-Iraj;-Page-from-a-Dispersed-copy-of-the-Shahnama-Book-of-Kings-by-Firdawsi",
     "metadata": {
-      "accession": "1988.460.2",
+      "accession": "1984.87",
+      "folio_sequence": 48,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "highres_image": "https://artsandculture.google.com/asset/tur-beheads-iraj-sultan-muhammad-iranian-attributed/IQGB-i0WnXtGxw",
       "date": "ca. 1530",
       "medium": "Ink, opaque watercolor, and gold on paper",
-      "dimensions": "Unknown",
-      "location": "Harvard Art Museums"
+      "dimensions": "32.7 x 23.8 cm",
+      "location": "Cincinnati Art Museum"
     },
     "description": "Earthly drunkenness scene; stylistic link to Houghton Shahnama."
+  },
+  {
+    "title": "Folio 218r: Kay Khusraw Welcomed by his Grandfather, Kay Kaus, King of Iran",
+    "source_url": "https://www.davidmus.dk/art-from-the-islamic-world/miniature-paintings/item/963?culture=en-us",
+    "metadata": {
+      "accession": "30/1988",
+      "folio_sequence": 218,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Painting"],
+      "highres_image": "https://catalog.cdn-davidmus.dk/storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdThFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--161d369b711d51196b776544384e49cc8dc6634b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNta0NBQW89IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2fb0a7ed0031bd5615b9bf0a5ecfe18c7e2c74ed/Copyright_the_David-Collection_Copenhagen_30-1988_photo_Pernille_Klemp_web.jpg",
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "47.6 x 32.1 cm",
+      "location": "David Museum"
+    },
+    "description": "The scene is enacted at the court of Kay Kaus. He is seated on his throne together with his grandson, Kay Khusraw, who has just returned from Turan, where he grew up in secrecy after his father, good Prince Siyawush, was killed."
+  },
+  {
+    "title": "Folio 521v: Haftvad and the Worm",
+    "source_url": "https://collections.agakhanmuseum.org/collection/artifact/story-haftvad-and-the-worm-akm164",
+    "metadata": {
+      "accession": "AKM155",
+      "folio_sequence": 521,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "46.8 x 32.3 cm",
+      "location": "Agakhan Museum"
+    },
+    "description": "It has been argued that “The Death of Zahhak” dates to around 1535 and is Sultan Muhammad’s last contribution to the Shahnameh (Book of Kings) of Shah Tahmasp (folio 37 verso). By the mid-1530s, the style of Safavid court painting had matured, and some of the hallmarks of Sultan Muhammad’s own idiom had evolved. "
+  },
+  {
+    "title": "Folio 25v: The Death of King Mirdas",
+    "source_url": "https://www.khalilicollections.org/collections/islamic-art/khalili-collection-islamic-art-the-death-of-king-mirdas-mss1030-folio25/",
+    "metadata": {
+      "accession": "MSS 1030, folio 25v",
+      "folio_sequence": 25,
+      "folio_side": "v",
+      "folio_type" : ["mdhn:Painting"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "23.3 x 17.5 cm",
+      "location": "Khalili Collection"
+    },
+    "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
+  },
+  {
+    "title": "Folio 25r: The Death of King Mirdas",
+    "source_url": "https://www.khalilicollections.org/collections/islamic-art/khalili-collection-islamic-art-the-death-of-king-mirdas-mss1030-folio25/",
+    "metadata": {
+      "accession": "MSS 1030, folio 25r",
+      "folio_sequence": 25,
+      "folio_side": "r",
+      "folio_type" : ["mdhn:Illuminated_Heading_Text"],
+      "date": "ca. 1530",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "dimensions": "27 x 17.1 cm",
+      "location": "Khalili Collection"
+    },
+    "description": "The Death of King Mirdas’, Folio 25 from the Shahnamah of Shah Tahmasp"
   }
 ]
 ```
