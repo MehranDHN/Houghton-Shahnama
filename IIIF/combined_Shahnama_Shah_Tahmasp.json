@@ -46,7 +46,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-10r/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "10r",
           "height": 5953,
           "width": 4215,
           "images": [
@@ -73,7 +73,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-20v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "20v",
           "height": 1553,
           "width": 1035,
           "images": [
@@ -100,7 +100,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-21v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "21v",
           "height": 2353,
           "width": 1555,
           "images": [
@@ -127,7 +127,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-22v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "22v",
           "height": 4000,
           "width": 2802,
           "images": [
@@ -154,7 +154,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-23v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "23v",
           "height": 3826,
           "width": 2603,
           "images": [
@@ -181,7 +181,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-25r/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "25r",
           "height": 2200,
           "width": 1360,
           "images": [
@@ -208,7 +208,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-25v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "25v",
           "height": 2500,
           "width": 1426,
           "images": [
@@ -235,7 +235,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-28v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "28v",
           "height": 5810,
           "width": 3927,
           "images": [
@@ -262,7 +262,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-36r/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "36r",
           "height": 3000,
           "width": 2124,
           "images": [
@@ -289,7 +289,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-36v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "36v",
           "height": 5445,
           "width": 3634,
           "images": [
@@ -316,7 +316,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-37v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "37v",
           "height": 1518,
           "width": 1012,
           "images": [
@@ -343,7 +343,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-48v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "48v",
           "height": 2695,
           "width": 2191,
           "images": [
@@ -370,7 +370,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-80v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "80v",
           "height": 4000,
           "width": 2699,
           "images": [
@@ -397,7 +397,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "243v",
           "height": 4000,
           "width": 2777,
           "images": [
@@ -424,7 +424,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-241r/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "241r",
           "height": 3664,
           "width": 2481,
           "images": [
@@ -447,11 +447,11 @@
               "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-241r/canvas"
             }
           ]
-        },
+        },        
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "243v",
           "height": 4000,
           "width": 2777,
           "images": [
@@ -478,7 +478,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-265v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "265v",
           "height": 1200,
           "width": 819,
           "images": [
@@ -505,7 +505,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-521v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "521v",
           "height": 1559,
           "width": 1038,
           "images": [
@@ -532,7 +532,7 @@
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-708v/canvas",
           "@type": "sc:Canvas",
-          "label": "Unnamed Canvas",
+          "label": "708v",
           "height": 4000,
           "width": 2722,
           "images": [
