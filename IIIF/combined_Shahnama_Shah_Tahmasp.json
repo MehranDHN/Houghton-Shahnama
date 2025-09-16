@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://example.org/iiif/manifest/857647e1-969a-471f-83e7-2c73881eb67a",
+  "@id": "http://example.org/iiif/manifest/0f5a4fdd-fd2b-4c96-9ca4-53479abb8eac",
   "label": "Shahnama Shah Tahmasp - Combined Manifest",
   "metadata": [
     {
@@ -39,7 +39,7 @@
   ],
   "sequences": [
     {
-      "@id": "http://example.org/iiif/sequence/bf42510c-ff57-4079-9af6-7712916a9283",
+      "@id": "http://example.org/iiif/sequence/c1903ef6-ee2e-4f5b-935d-a1146a470758",
       "@type": "sc:Sequence",
       "label": "Default",
       "canvases": [
@@ -51,7 +51,7 @@
           "width": 4215,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/cb50759e-a62e-46c9-bc69-7579fb9342eb",
+              "@id": "http://example.org/iiif/annotation/b1ad4c8c-c37f-44fb-ab42-ea463c7022dd",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -78,7 +78,7 @@
           "width": 1035,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/014b4c8d-83fb-4f44-ae32-05e8c0c88640",
+              "@id": "http://example.org/iiif/annotation/01cfe429-de9a-4629-a29a-912850deaad0",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -105,7 +105,7 @@
           "width": 1555,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/9306b2f6-b76c-40d6-a0fd-5ac3cde19770",
+              "@id": "http://example.org/iiif/annotation/0b535c46-3599-4ea7-8910-4e9890579935",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -132,7 +132,7 @@
           "width": 2802,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/78cf940f-9425-433d-b478-71470eaed1a9",
+              "@id": "http://example.org/iiif/annotation/12ce5ba6-2e4e-4e3c-b51c-547970ffbdc9",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -159,7 +159,7 @@
           "width": 2603,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/440c1826-0334-4bf5-9098-0b98e4145d75",
+              "@id": "http://example.org/iiif/annotation/22253f9c-dd70-4e08-a262-11c8233f4f0b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -186,7 +186,7 @@
           "width": 1360,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/3bce4f38-0662-4794-af44-00cc211486bd",
+              "@id": "http://example.org/iiif/annotation/94df7821-2d92-4496-986f-0cfef64b09c5",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -213,7 +213,7 @@
           "width": 1426,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/ae3e2159-fc13-4b30-9883-55c5adb8c1e3",
+              "@id": "http://example.org/iiif/annotation/5ba3bac4-97a9-4b61-97a7-d1f3ebb9bc38",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -240,7 +240,7 @@
           "width": 3927,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/13dbf573-48c5-41fb-b7ec-0fdeebe4bae9",
+              "@id": "http://example.org/iiif/annotation/5d087af3-98ed-4431-be58-cd5cb44da041",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -267,7 +267,7 @@
           "width": 2124,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/46ca6ea5-7443-4296-9ac9-896db29d6d3d",
+              "@id": "http://example.org/iiif/annotation/7fc790f6-8936-4523-9f23-fc1df11fb79b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -294,7 +294,7 @@
           "width": 3634,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/0c773016-2e15-4d01-8157-68ca67008a00",
+              "@id": "http://example.org/iiif/annotation/705d6d6c-f730-41a2-a99f-87dbb7670cf4",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -321,7 +321,7 @@
           "width": 1012,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/7f0a1a35-425c-4973-a060-4a9bef067077",
+              "@id": "http://example.org/iiif/annotation/425f8d2b-ccbc-4010-99aa-1891f50b2bf6",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -348,7 +348,7 @@
           "width": 2191,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/1cb76780-06b7-434f-89bc-17377b354db1",
+              "@id": "http://example.org/iiif/annotation/315d539a-316a-4a34-9aaa-18bb269e4312",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -375,7 +375,7 @@
           "width": 2699,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/f814c66d-30c0-4d80-91ed-2ef4d145a4b0",
+              "@id": "http://example.org/iiif/annotation/4a03b1db-e1fa-46be-80d6-4ab4876745d1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -395,29 +395,29 @@
           ]
         },
         {
-          "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas",
+          "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-218r/canvas",
           "@type": "sc:Canvas",
-          "label": "243v",
-          "height": 4000,
-          "width": 2777,
+          "label": "218r",
+          "height": 6625,
+          "width": 4412,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/9e79164f-2167-401d-a9bf-bef4d0d74ee5",
+              "@id": "http://example.org/iiif/annotation/550f07e7-095f-4cd3-b85b-1e1f1f3f9cc4",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-243v%2F243v.jpg/full/max/0/default.jpg",
+                "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-218r%2F218r.jpg/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 4000,
-                "width": 2777,
+                "height": 6625,
+                "width": 4412,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-243v%2F243v.jpg",
+                  "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-218r%2F218r.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas"
+              "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-218r/canvas"
             }
           ]
         },
@@ -429,7 +429,7 @@
           "width": 2481,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/49b83c11-9a7e-47dd-afd2-1110a35dca75",
+              "@id": "http://example.org/iiif/annotation/e34de65d-0290-4ed7-9a0a-1a6dee35d9bb",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -447,7 +447,7 @@
               "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-241r/canvas"
             }
           ]
-        },        
+        },
         {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas",
           "@type": "sc:Canvas",
@@ -456,7 +456,7 @@
           "width": 2777,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/cb487184-9fd1-46dd-bb3f-8ce2de304a66",
+              "@id": "http://example.org/iiif/annotation/95da51dc-4b79-49fe-98b6-0bb17265b4bb",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -476,6 +476,33 @@
           ]
         },
         {
+          "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-248r/canvas",
+          "@type": "sc:Canvas",
+          "label": "248r",
+          "height": 3964,
+          "width": 2674,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/27f6ed90-1b3b-4d2f-95b1-6d0cc4f591d9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-248r%2F248r.jpg/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3964,
+                "width": 2674,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-248r%2F248r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-248r/canvas"
+            }
+          ]
+        },
+        {
           "@id": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-265v/canvas",
           "@type": "sc:Canvas",
           "label": "265v",
@@ -483,7 +510,7 @@
           "width": 819,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/45824bbe-2c4f-4b39-83fd-77fe2c479bac",
+              "@id": "http://example.org/iiif/annotation/713c107e-0959-4a73-a28a-21afa1ad38c9",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -510,7 +537,7 @@
           "width": 1038,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/4d8efbf1-5431-4164-91b6-0de9c6509d99",
+              "@id": "http://example.org/iiif/annotation/9b7ed641-531b-4180-b3f3-6bfc8491a8a5",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -537,7 +564,7 @@
           "width": 2722,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/fdaea4d0-1a04-4572-8675-9d9a9e66e93b",
+              "@id": "http://example.org/iiif/annotation/bd954249-34a5-4a73-ab29-e8d25c4d1d50",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -545,7 +572,12 @@
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 4000,
-                "width": 2722
+                "width": 2722,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/shahnama-shah-tahmasp-708v%2F708v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
               },
               "on": "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-708v/canvas"
             }
@@ -556,17 +588,17 @@
   ],
   "structures": [
     {
-      "@id": "http://example.org/iiif/range/cc38744d-6b2d-4204-ab2d-d5682c8ebe43",
+      "@id": "http://example.org/iiif/range/ada3cd21-fab0-40ac-9759-175ef2b5d131",
       "@type": "sc:Range",
-      "label": "Robert Byron-Isfahan-Religious Buildings",
+      "label": "Shahnama of Shah Tahmasp",
       "ranges": [
         {
-          "@id": "http://example.org/iiif/range/333a479c-9281-42cf-840c-fbe0037b0963",
+          "@id": "http://example.org/iiif/range/81dd6018-a584-446c-b505-f55b558ab633",
           "@type": "sc:Range",
-          "label": "Architectural Building CON_B02477_F001",
+          "label": "20 Sample Folios",
           "ranges": [
             {
-              "@id": "http://example.org/iiif/range/94b50d7a-9f5b-41a2-b09f-684543d4cce7",
+              "@id": "http://example.org/iiif/range/8754030a-a656-442b-bb85-6992bc29dca5",
               "@type": "sc:Range",
               "label": "10r: The poet Firdausi reciting from his work before the Ghaznavid sultan Mahmud",
               "canvases": [
@@ -574,7 +606,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/7bbbeea8-230f-4273-aac7-86c2b7697821",
+              "@id": "http://example.org/iiif/range/182ca6b3-3762-47c3-a8b3-c05f13725fe9",
               "@type": "sc:Range",
               "label": "20V: The Court Of Kayumars",
               "canvases": [
@@ -582,7 +614,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/8f25c168-0205-49e4-913f-959b35466a41",
+              "@id": "http://example.org/iiif/range/5cab819a-2406-4d90-8884-8f89e446507d",
               "@type": "sc:Range",
               "label": "21v: Hushang Slays the Black Div",
               "canvases": [
@@ -590,7 +622,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/23913ede-cd9c-4c5a-96f5-85e0152b97fe",
+              "@id": "http://example.org/iiif/range/ae8ea2a5-103d-4e41-ae11-afb5754e1d5a",
               "@type": "sc:Range",
               "label": "22v: The Feast of Sada",
               "canvases": [
@@ -598,7 +630,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/107c90c0-afec-4484-8f33-924400547c9f",
+              "@id": "http://example.org/iiif/range/2c5b5e2d-63a5-4ff6-9fe2-daf8f8beebe1",
               "@type": "sc:Range",
               "label": "23v: Tahmuras Defeats the Divs",
               "canvases": [
@@ -606,7 +638,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/d6dab1bc-3f86-4dce-b251-49aec951f6a3",
+              "@id": "http://example.org/iiif/range/4fa8fa56-116c-4e51-8376-9ffb702c7739",
               "@type": "sc:Range",
               "label": "25r: The Death of King Mirdas",
               "canvases": [
@@ -614,7 +646,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/7971487b-2e3f-4482-8b07-f0c6fea59af4",
+              "@id": "http://example.org/iiif/range/8c59e426-20d7-49c6-9781-9260f41a908e",
               "@type": "sc:Range",
               "label": "25v: The Death of King Mirdas",
               "canvases": [
@@ -622,7 +654,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/9c0b204d-b6bb-48f9-acbf-2b5d8b9a446b",
+              "@id": "http://example.org/iiif/range/a6406e74-f416-4151-b1dc-158d8f0517cd",
               "@type": "sc:Range",
               "label": "28v: The Nightmare of Zahhak",
               "canvases": [
@@ -630,7 +662,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/820478d6-3b1d-475a-b47e-13288a126d82",
+              "@id": "http://example.org/iiif/range/96102b49-d36d-440c-844e-bfbbf9b50d91",
               "@type": "sc:Range",
               "label": "36r: Faridun captures Zahhak",
               "canvases": [
@@ -638,7 +670,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/56fc8c9d-434a-47bd-b3e0-2a2cf2d2c979",
+              "@id": "http://example.org/iiif/range/5b26f0f4-d2a9-42b8-996f-9f102a452c1f",
               "@type": "sc:Range",
               "label": "36v: Faridun strikes Zahhak with the ox-headed",
               "canvases": [
@@ -646,7 +678,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/e1d10582-c72b-4f25-9a75-a5e7ed821e20",
+              "@id": "http://example.org/iiif/range/b4033884-509a-4704-90e9-63d1a2d38928",
               "@type": "sc:Range",
               "label": "37v: The Death of Zahhak",
               "canvases": [
@@ -654,7 +686,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/dc7e3620-e54c-4277-a52a-a719ef476bab",
+              "@id": "http://example.org/iiif/range/cc322b9a-72be-425a-8c83-e28ff9541d8f",
               "@type": "sc:Range",
               "label": "48v: Tur Beheads Iraj",
               "canvases": [
@@ -662,7 +694,7 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/f3504feb-bc7e-4a4a-88dd-d3d66f324308",
+              "@id": "http://example.org/iiif/range/1cecb4e8-1535-4814-bea3-e87f7ffda993",
               "@type": "sc:Range",
               "label": "80v: Manuchihr Welcomes Sam but Orders War",
               "canvases": [
@@ -670,43 +702,59 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/45e81c16-7b7a-4fcf-9e08-e9807680b224",
+              "@id": "http://example.org/iiif/range/0827ab0f-fb8b-4cc0-bde2-90bfd825a2ab",
               "@type": "sc:Range",
-              "label": "241r: The Besotted Iranian Camp Attacked by Night",
+              "label": "218r: Kay Khusraw Welcomed by his Grandfather, Kay Kaus, King of Iran",
               "canvases": [
-                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas"
+                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-218r/canvas"
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/27d3e5ca-6973-48a0-9e62-0567654999cc",
+              "@id": "http://example.org/iiif/range/2203face-b703-4720-9b25-c0a3e45152e6",
               "@type": "sc:Range",
-              "label": "243v: The Battle of Pashan Begins",
+              "label": "241r: The Besotted Iranian Camp Attacked by Night",
               "canvases": [
                 "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-241r/canvas"
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/8901b4bd-a75a-40a3-b04d-1baf356c5186",
+              "@id": "http://example.org/iiif/range/c5a6f75c-9670-41ac-be64-cc2701a3e88e",
               "@type": "sc:Range",
-              "label": "248r: Giv Avenges Bahram by Slaying Tazhav",
+              "label": "243v: The Battle of Pashan Begins",
               "canvases": [
                 "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-243v/canvas"
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/61eed9c1-a3ab-454d-b5c9-39939f596d73",
+              "@id": "http://example.org/iiif/range/0c7a654e-cf65-408d-8096-77dbf2df2957",
               "@type": "sc:Range",
-              "label": "521v: Haftvad and the Worm",
+              "label": "248r: Giv Avenges Bahram by Slaying Tazhav",
+              "canvases": [
+                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-248r/canvas"
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/61178f02-bd26-416b-a6a3-580bc6ce6331",
+              "@type": "sc:Range",
+              "label": "265v: Combat of Giv and Kamus",
               "canvases": [
                 "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-265v/canvas"
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/5f48a259-f7d3-4f94-a2de-4c8a412d58d5",
+              "@id": "http://example.org/iiif/range/a8f99db6-8855-426e-82f1-b73ffee7f456",
+              "@type": "sc:Range",
+              "label": "521v: Haftvad and the Worm",
+              "canvases": [
+                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-521v/canvas"
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/89ff4dee-311c-4045-8f6e-67c05084d10c",
               "@type": "sc:Range",
               "label": "708v: The Angel Surush Rescues Khusrau",
               "canvases": [
-                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-521v/canvas"
+                "https://iiif.archive.org/iiif/shahnama-shah-tahmasp-708v/canvas"
               ]
             }
           ]
