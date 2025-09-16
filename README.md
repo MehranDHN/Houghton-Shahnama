@@ -15,6 +15,7 @@ This initial release includes:
 
 The project aims to facilitate a virtual reconstruction of the manuscript using IIIF, with metadata in RDF for LOD interoperability.
 
+
 ## Repository Structure Recommendations
 
 For the first version, keep the structure simple and focused on the ontology and vocabulary. As the project grows, add metadata for individual folios and IIIF manifests. Use Git for version control, with semantic versioning (e.g., v1.0.0 for this release).
@@ -25,6 +26,10 @@ Recommended file structure:
 houghton-shahnama-ontology/
 ├── ontology/
 │   └── persian-manuscript-ontology.ttl  # Core ontology and controlled vocabulary in Turtle
+├── ia/
+│   └── upload_to_ia.py # Uploader to Internet Archive 
+├── sample-images/
+│   └── ...
 ├── examples/
 │   ├── sample-folio-rdf/
 │   │   ├── folio-22v.ttl  # Sample RDF for "The Feast of Sada" (Folio 22v)
@@ -369,6 +374,11 @@ Sample `catalog.json` content (as JSON string for illustration; save as file):
   }
 ]
 ```
+
+Each record in catalog is used to create a single standalone image resource in Internet Archive.
+The final integration of these resources will be create as an on the fly IIIF Manifest.
+[Collection of the resources](https://archive.org/search?query=genre%3A%22Shahnama+Shah+Tahmasp%22)
+
 ## Scoped Controlled Vocabularies
 Despite the lack of standard global controlled vocabulary related to numerous folio types in Persian manuscripts this controlled vocabulary provides a minimal set of terms for classifying folio types (e.g., Painting, Colophon), which can be associated with folios via the :hasFolioType property. A standalone minimal version of this vocabulary is included to ensure precise classification of folio functions in Persian manuscripts.
 However there is a complete version in `KG4OPennResources` project that can be refrenced later.
