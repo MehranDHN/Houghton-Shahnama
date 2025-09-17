@@ -108,8 +108,7 @@ WHERE {
 ```
 - **Purpose**: Queries for attributions, useful for agential analysis in Safavid art.
 - **Expected Output**: Folios like 22v attributed to Sultan Muhammad, depicting "The Feast of Sada".
-
-### 3. Retrieve Narrative Sequences and Depicted Characters
+- **Very Big Problem**: Obviously this kind of query is based on excact match keyword search, even if we use REGEX like services. Without a  `Thesaurus`and  `Reconciliation` of the resources, this is waste of time and resources and its impossible to achive %100 percent accurency.
 ```
 SELECT ?folio ?typeLabel ?sequence ?episodeLabel ?character
 WHERE {
