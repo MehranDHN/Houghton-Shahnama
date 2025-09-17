@@ -458,6 +458,15 @@ However there is a complete version in `KG4OPennResources` project that can be r
     skos:inScheme :FolioTypeScheme .   
 ```
 
+## Final Step. Eventually Integrating the scattered resources.
+After uploading each individual resource to Internet Archive, we can access to `IIIF Manifest` of each resource and then using a simple automation we can create a single standalone on the fly IIIF Manifest which contain all resources integrated in proper order with a useful Table of contents guide.
+
+
+[Final result using Mirador hosted in Biblissima](https://iiif.biblissima.fr/mirador3/?iiif-content=https://raw.githubusercontent.com/MehranDHN/Houghton-Shahnama/refs/heads/main/IIIF/combined_Shahnama_Shah_Tahmasp.json)
+[Final result using Mirador](https://projectmirador.org/embed/?iiif-content=https://raw.githubusercontent.com/MehranDHN/Houghton-Shahnama/refs/heads/main/IIIF/combined_Shahnama_Shah_Tahmasp.json)
+[Final result using Glycerine](https://demo.viewer.glycerine.io/viewer?iiif-content=https://raw.githubusercontent.com/MehranDHN/Houghton-Shahnama/refs/heads/main/IIIF/combined_Shahnama_Shah_Tahmasp.json)
+[Final result using Universal Viewer](https://uv-v4.netlify.app/#?manifest=https://raw.githubusercontent.com/MehranDHN/Houghton-Shahnama/refs/heads/main/IIIF/combined_Shahnama_Shah_Tahmasp.json&c=&m=&cv=&xywh=-2977%2C-331%2C10168%2C6614)
+
 ## License
 
 This ontology and vocabulary are released under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. Attribute sources for original resources.
