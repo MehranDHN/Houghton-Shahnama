@@ -69,23 +69,25 @@ Publish as a public GitHub repo (e.g., github.com/MehranDHN/houghton-shahnama-on
 
 Below are example SPARQL queries demonstrating query possibilities. Assume the ontology namespace `@prefix pmo: <http://MehranDHN.org/pmo#> .` and samples loaded. These can be run in a tool like Fuseki or Yasgui.
 
-### 1. Retrieve All Folios by Type (e.g., Paintings)
+### 1. Retrieve All Painting Folios , Foilio's sequence and GLAM order by Seq 
 ```
-PREFIX pmo: <http://MehranDHN.org/pmo#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-
-SELECT ?folio ?typeLabel ?sequence
+PREFIX onto:<http://www.ontotext.com/>
+PREFIX mdhn:<http://example.com/mdhn/>
+PREFIX :<http://example.com/mdhn/>
+SELECT ?folio ?type ?sequence ?glam
 WHERE {
-  ?folio a pmo:Folio ;
-         pmo:hasFolioType ?type ;
-         pmo:sequencePosition ?sequence .
-  ?type skos:prefLabel ?typeLabel .
-  FILTER (?type = pmo:Painting)  # Change to other types like pmo:Colophon
+  ?folio a :Folio ;
+         :hasFolioType ?type ;
+         :keptInGLAM ?glam;
+         :sequencePosition ?sequence .
+  FILTER (?type = :FT_Painting)  
 }
 ORDER BY ?sequence
 ```
-- **Purpose**: Lists folios classified as "Painting", with sequence for reconstruction.
-- **Expected Output** (with samples): Folio 22v ("Painting", sequence 22), Folio 61b ("Painting", sequence 61).
+- **Purpose**: Lists folios by specified FolioType, with folio sequence and GLAM(publisher)
+- **Expected Output** 
+![Query 1 Result](img-src/qresult1.jpg)
 
 ### 2. Find Folios Attributed to a Specific Artist
 ```
